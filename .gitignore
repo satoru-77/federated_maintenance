@@ -1,31 +1,34 @@
 # ============================================================
 #  FedPredict — .gitignore
-#  Indra owns: fl_backend/, documentationBUILDGUIDE/, start_all.ps1
+#  Indra pushes: fl_backend/, start_all.ps1
 #  Friends push separately: machine_learning/, fl_shap_dashboard/
+#  Everything else: local only, not on GitHub
 # ============================================================
 
 # ── Friends' folders (they push their own) ───────────────────
 machine_learning/
 fl_shap_dashboard/
 
-# ── Junk / scratch folders at root ───────────────────────────
-new/
-old_summaries/
-college_report/
-
-# ── Junk files at root ────────────────────────────────────────
+# ── Local-only / not needed on GitHub ────────────────────────
+documentationBUILDGUIDE/
+ARCHITECTURE.md
+COMMIT_GUIDE.md
+GIT_BACKDATE_GUIDE.md
+MakeDocumentPlan.md
 SHAP_API.md
 shap_explainer.html
 MEMBER3_PHASE3.md
 nb_extract_helper.py
-GIT_BACKDATE_GUIDE.md
-MakeDocumentPlan.md
 
-# ── Scratch / temp inside docs folder ────────────────────────
-documentationBUILDGUIDE/nb01_structure.txt
-documentationBUILDGUIDE/nb02_structure.txt
-documentationBUILDGUIDE/nb05_structure.txt
-documentationBUILDGUIDE/MakeDocumentPlan.md
+# ── Docker (not finished yet) ─────────────────────────────────
+docker-compose.yml
+docker-compose.override.yml
+*.dockerignore
+
+# ── Junk / scratch folders at root ───────────────────────────
+new/
+old_summaries/
+college_report/
 
 # ── Python ────────────────────────────────────────────────────
 __pycache__/
@@ -57,7 +60,7 @@ secrets.py
 *.pickle
 *.joblib
 
-# ── NASA CMAPSS raw data (large, not source code) ────────────
+# ── NASA CMAPSS raw data ──────────────────────────────────────
 train_FD00*.txt
 test_FD00*.txt
 RUL_FD00*.txt
@@ -94,16 +97,12 @@ logs/
 *.sqlite3
 *.db
 
-# ── Docker ────────────────────────────────────────────────────
-# (Keep Dockerfiles tracked, ignore runtime volumes)
-docker-compose.override.yml
-
-# ── PowerShell temp ───────────────────────────────────────────
-*.ps1.bak
-
-# -- Archives -----------------------------------------------
+# ── Archives ──────────────────────────────────────────────────
 *.7z
 *.zip
 *.tar
 *.tar.gz
 *.rar
+
+# ── PowerShell temp ───────────────────────────────────────────
+*.ps1.bak
