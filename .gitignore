@@ -1,15 +1,10 @@
-# ============================================================
-#  FedPredict — .gitignore
-#  Indra pushes: fl_backend/, start_all.ps1
-#  Friends push separately: machine_learning/, fl_shap_dashboard/
-#  Everything else: local only, not on GitHub
-# ============================================================
 
-# ── Friends' folders (they push their own) ───────────────────
+
+# Contribbution folders
 machine_learning/
 fl_shap_dashboard/
 
-# ── Local-only / not needed on GitHub ────────────────────────
+# ── Local-only 
 documentationBUILDGUIDE/
 ARCHITECTURE.md
 COMMIT_GUIDE.md
@@ -29,6 +24,7 @@ docker-compose.override.yml
 new/
 old_summaries/
 college_report/
+Junk/
 
 # ── Python ────────────────────────────────────────────────────
 __pycache__/
