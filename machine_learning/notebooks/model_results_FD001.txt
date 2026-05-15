@@ -1,0 +1,7 @@
+Dataset: FD001
+Model: CNN1D
+AUC-ROC: 0.9704
+Accuracy: 17.5%
+Miss Rate: 0.0%
+False Alarm Rate: 100.0%
+Useful sensors: ['sensor_2', 'sensor_3', 'sensor_4', 'sensor_7', 'sensor_8', 'sensor_9', 'sensor_11', 'sensor_12', 'sensor_13', 'sensor_14', 'sensor_15', 'sensor_17', 'sensor_20', 'sensor_21']

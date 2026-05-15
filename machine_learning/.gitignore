@@ -1,0 +1,8 @@
+machine_learning/venv/
+machine_learning/__pycache__/
+machine_learning/notebooks/.ipynb_checkpoints/
+machine_learning/notebooks/*.pt
+machine_learning/notebooks/*.pkl
+machine_learning/notebooks/train_FD*.txt
+machine_learning/notebooks/RUL_FD*.txt
+machine_learning/notebooks/test_FD*.txt
