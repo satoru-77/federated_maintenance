@@ -1,0 +1,5 @@
+fl_shap_dashboard/venv/
+fl_shap_dashboard/__pycache__/
+fl_shap_dashboard/db.sqlite3
+fl_shap_dashboard/.env
+fl_shap_dashboard/staticfiles/  
