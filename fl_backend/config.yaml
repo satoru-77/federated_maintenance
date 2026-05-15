@@ -1,0 +1,25 @@
+fl:
+  rounds: 20
+  min_clients: 4
+  local_epochs: 10
+  plateau_patience: 4
+  plateau_delta: 0.02
+
+clustering:
+  k_values: [2, 3]
+  default_k: 2
+
+personalization:
+  alpha_min: 0.1
+  alpha_max: 0.9
+  alpha_step: 0.1
+
+security:
+  dp_epsilon: 1.0
+  dp_delta: 0.00001
+  byzantine_threshold: 0.5
+
+simulation:
+  speed_slow: 60
+  speed_normal: 30
+  speed_fast: 10

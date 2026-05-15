@@ -1,0 +1,12 @@
+fl_backend/venv/
+fl_backend/__pycache__/
+fl_backend/*.pyc
+fl_backend/.env
+fl_backend/weights/
+fl_backend/mlruns/
+fl_backend/*.pt
+fl_backend/*.pkl
+fl_backend/logs/
+fl_backend/client/train_FD*.txt
+fl_backend/client/RUL_FD*.txt
+fl_backend/client/test_FD*.txt

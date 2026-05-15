@@ -1,0 +1,109 @@
+# ============================================================
+#  FedPredict — .gitignore
+#  Indra owns: fl_backend/, documentationBUILDGUIDE/, start_all.ps1
+#  Friends push separately: machine_learning/, fl_shap_dashboard/
+# ============================================================
+
+# ── Friends' folders (they push their own) ───────────────────
+machine_learning/
+fl_shap_dashboard/
+
+# ── Junk / scratch folders at root ───────────────────────────
+new/
+old_summaries/
+college_report/
+
+# ── Junk files at root ────────────────────────────────────────
+SHAP_API.md
+shap_explainer.html
+MEMBER3_PHASE3.md
+nb_extract_helper.py
+GIT_BACKDATE_GUIDE.md
+MakeDocumentPlan.md
+
+# ── Scratch / temp inside docs folder ────────────────────────
+documentationBUILDGUIDE/nb01_structure.txt
+documentationBUILDGUIDE/nb02_structure.txt
+documentationBUILDGUIDE/nb05_structure.txt
+documentationBUILDGUIDE/MakeDocumentPlan.md
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# ── Virtual environments ──────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── Environment / secrets ─────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.py
+
+# ── Binary model & scaler files ──────────────────────────────
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.joblib
+
+# ── NASA CMAPSS raw data (large, not source code) ────────────
+train_FD00*.txt
+test_FD00*.txt
+RUL_FD00*.txt
+
+# ── Jupyter / notebook artifacts ─────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Result / output files ────────────────────────────────────
+*.json
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.html
+
+# ── IDE / Editor ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Database files ────────────────────────────────────────────
+*.sqlite3
+*.db
+
+# ── Docker ────────────────────────────────────────────────────
+# (Keep Dockerfiles tracked, ignore runtime volumes)
+docker-compose.override.yml
+
+# ── PowerShell temp ───────────────────────────────────────────
+*.ps1.bak
+
+# -- Archives -----------------------------------------------
+*.7z
+*.zip
+*.tar
+*.tar.gz
+*.rar
